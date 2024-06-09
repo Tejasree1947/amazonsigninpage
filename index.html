@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            padding-left: 30px;
+           
+        }
+        img{
+            width: 100px;
+            height:30px
+        }
+        .box{
+           border:1px solid rgb(216, 215, 215);
+           width: 400px;
+           height: 470px;
+           margin: auto;
+
+        }
+        b{
+            text-align: left;
+            padding-left: 30px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 550;
+        }
+        .content{
+            text-align: left;
+        }
+        input{
+            margin-left: 30px;
+            width: 340px;
+            height: 25px;
+        }
+        .signinButton{
+            background-color: rgb(244, 219, 31);
+            border: none;
+            border-radius: 7px;
+            width: 340px;
+            height: 29px;
+            margin-left: 30px;
+        }
+        a{
+            color: rgb(0, 129, 180);
+            text-decoration: none;
+        }
+        #checkb{
+           height: 15px;
+            margin: -160px;
+            margin-left: -120px;
+            
+        }
+        .dropdown{
+            position: relative;
+  display: inline-block;
+  color: rgb(194, 194, 245);
+        }
+        .dropdown-content{
+            display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: black;
+        }
+        .dropdown:hover .dropdown-content {
+  display: block;
+}
+.createacc{
+    background-color: #f9f9f9;
+    border-width: 1px;
+    border-radius: 7px;
+    border-color: rgb(208, 205, 205);
+    
+
+}
+    </style>
+</head>
+<body><center><nav>
+    <img src="https://seeklogo.com/images/A/amazon-logo-86547BFB54-seeklogo.com.png"></nav><br></center>
+    
+    <div class="box">
+    
+        <div class="content">
+       <h1>Sign in</h1>
+       <form>
+       <label for="email">
+       <b>Email or mobile phone number</b></label><br>
+       <input placeholder="" type="email" name="email" required><br><br>
+       <label for="password">
+        <b>Password </b></label><a style="margin-left: 145px; color:rgb(0, 129, 180); font-family: Arial, Helvetica, sans-serif;" href="">Forgot Password</a><br>
+        <input placeholder="" type="password" name="password" required><br><br>
+        
+        <button class="signinButton">Sign in</button>
+        <br>
+        <p style="margin-left: 30px; font-family: Arial, Helvetica, sans-serif;">By continuing,you agree to Amazon's <a href="">Condition of Use</a>  and <a href="">  Privacy Notice</a>.</p>
+        <br>
+        <input type="checkbox" id="checkb" name="checkb">
+        <label style="font-family: Arial, Helvetica, sans-serif;" for="checkb">Keep me signed in.</label>
+        <div class="dropdown">
+            <span>Details</span>
+            <div class="dropdown-content">
+            <h5>Keep me signed in</h5>
+            <p>Choosing "Keep me signed in" reduces the number of times you're asked to Sign-In on this device.
+
+                To keep your account secure, use this option only on your personal devices.</p>
+            </div>
+          </div>
+        </form>
+        <p style="padding-left: 30px; color: rgb(184, 182, 182);">---------------------New to Amazon?---------------------</p>
+           <center><button class="createacc" style="width: 300px; height: 30px;">Create your Amazon account</button></center>
+    </div></div>
+    
+    
+</body>
+</html>
